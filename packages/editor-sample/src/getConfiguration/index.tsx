@@ -7,6 +7,9 @@ import RESET_PASSWORD from './sample/reset-password';
 import RESPOND_TO_MESSAGE from './sample/respond-to-message';
 import SUBSCRIPTION_RECEIPT from './sample/subscription-receipt';
 import WELCOME from './sample/welcome';
+import TEMPLATE_SAFIRA from './sample/template-safira';
+import TEMPLATE_LENI from './sample/template-leni';
+import TEMPLATE_FITRI from './sample/template-fitri';
 
 export default function getConfiguration(template: string) {
   if (template.startsWith('#sample/')) {
@@ -28,6 +31,12 @@ export default function getConfiguration(template: string) {
         return RESPOND_TO_MESSAGE;
       case 'subscription-receipt':
         return SUBSCRIPTION_RECEIPT;
+      case 'template-safira':
+        return TEMPLATE_SAFIRA;
+      case 'template-leni':
+        return TEMPLATE_LENI;
+      case 'template-fitri':
+        return TEMPLATE_FITRI;
     }
   }
 

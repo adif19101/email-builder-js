@@ -37,6 +37,9 @@ export default function SamplesDrawer() {
             <SidebarButton href="#sample/reservation-reminder">Reservation reminder</SidebarButton>
             <SidebarButton href="#sample/post-metrics-report">Post metrics</SidebarButton>
             <SidebarButton href="#sample/respond-to-message">Respond to inquiry</SidebarButton>
+            <SidebarButton href="#sample/template-safira">Template Safira</SidebarButton>
+            <SidebarButton href="#sample/template-leni">Template Leni</SidebarButton>
+            <SidebarButton href="#sample/template-fitri">Template Fitri</SidebarButton>
           </Stack>
 
           <Divider />
