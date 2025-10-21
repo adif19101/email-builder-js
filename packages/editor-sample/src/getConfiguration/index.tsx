@@ -9,7 +9,7 @@ import SUBSCRIPTION_RECEIPT from './sample/subscription-receipt';
 import WELCOME from './sample/welcome';
 import TEMPLATE_SAFIRA from './sample/template-safira';
 import TEMPLATE_LENI from './sample/template-leni';
-import TEMPLATE_FITRI from './sample/template-fitri';
+import TEMPLATE_HRD from './sample/template-hrd';
 
 export default function getConfiguration(template: string) {
   if (template.startsWith('#sample/')) {
@@ -35,8 +35,8 @@ export default function getConfiguration(template: string) {
         return TEMPLATE_SAFIRA;
       case 'template-leni':
         return TEMPLATE_LENI;
-      case 'template-fitri':
-        return TEMPLATE_FITRI;
+      case 'template-hrd':
+        return TEMPLATE_HRD;
     }
   }
 

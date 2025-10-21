@@ -201,7 +201,7 @@ const RESPOND_TO_MESSAGE: TEditorConfiguration = {
         }
       },
       "props": {
-        "contents": "<div style=\"font-weight:bold;\">WhatsApp : <a href=\"https://wa.me/6282111778907\">+6282111778907</a> (Kak Fitri)</div>"
+        "contents": "<div style=\"font-weight:bold;\">WhatsApp : <a href=\"https://wa.me/6282111778907\">+6282111778907</a> (Kak Rere)</div>"
       }
     }
   },
