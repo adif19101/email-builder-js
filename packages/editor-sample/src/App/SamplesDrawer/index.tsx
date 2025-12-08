@@ -40,6 +40,7 @@ export default function SamplesDrawer() {
             <SidebarButton href="#sample/template-safira">Template Safira</SidebarButton>
             <SidebarButton href="#sample/template-leni">Template Leni</SidebarButton>
             <SidebarButton href="#sample/template-hrd">Template HRD</SidebarButton>
+            <SidebarButton href="#sample/template-pipin">Template Pipin</SidebarButton>
           </Stack>
 
           <Divider />

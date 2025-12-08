@@ -10,6 +10,7 @@ import WELCOME from './sample/welcome';
 import TEMPLATE_SAFIRA from './sample/template-safira';
 import TEMPLATE_LENI from './sample/template-leni';
 import TEMPLATE_HRD from './sample/template-hrd';
+import TEMPLATE_PIPIN from './sample/template-pipin';
 
 export default function getConfiguration(template: string) {
   if (template.startsWith('#sample/')) {
@@ -37,6 +38,8 @@ export default function getConfiguration(template: string) {
         return TEMPLATE_LENI;
       case 'template-hrd':
         return TEMPLATE_HRD;
+      case 'template-pipin':
+        return TEMPLATE_PIPIN;
     }
   }
 
