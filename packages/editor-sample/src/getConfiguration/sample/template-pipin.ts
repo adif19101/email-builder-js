@@ -24,6 +24,7 @@ const RESPOND_TO_MESSAGE: TEditorConfiguration = {
         "block-1731578104869",
         "block-1731578194310",
         "block-1731578214314",
+        "block-1765269100617",
         "block-1731638795916"
       ]
     }
@@ -195,7 +196,7 @@ const RESPOND_TO_MESSAGE: TEditorConfiguration = {
         "textAlign": "center",
         "padding": {
           "top": 4,
-          "bottom": 16,
+          "bottom": 4,
           "right": 24,
           "left": 24
         }
@@ -255,6 +256,53 @@ const RESPOND_TO_MESSAGE: TEditorConfiguration = {
       },
       "props": {
         "contents": "<table align=\"center\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"table-layout: fixed; border-collapse: collapse;\">\n        <tbody>\n            <tr>\n                <td align=\"center\" style=\"padding: 5px;\">\n                </td>\n                <td align=\"center\" style=\"padding: 5px;\">\n                    <a href=\"https://www.facebook.com/Latis-Privat-1429223854059865/\" title=\"Facebook\" target=\"_blank\">\n                        <img src=\"https://login.latiseducation.com/assets2/img/email/image-1.png\" alt=\"Facebook\" title=\"Facebook\" width=\"32\" style=\"border: none; display: inline-block;\" />\n                    </a>\n                </td>\n                <td align=\"center\" style=\"padding: 5px;\">\n                    <a href=\"https://twitter.com/latis_privat?s=09\" title=\"Twitter\" target=\"_blank\">\n                        <img src=\"https://login.latiseducation.com/assets2/img/email/image-2.png\" alt=\"Twitter\" title=\"Twitter\" width=\"32\" style=\"border: none; display: inline-block;\" />\n                    </a>\n                </td>\n                <td align=\"center\" style=\"padding: 5px;\">\n                    <a href=\"https://www.youtube.com/channel/UCcXqPPijOmscmCEtCESW5Gg\" title=\"YouTube\" target=\"_blank\">\n                        <img src=\"https://login.latiseducation.com/assets2/img/email/image-3.png\" alt=\"YouTube\" title=\"YouTube\" width=\"32\" style=\"border: none; display: inline-block;\" />\n                    </a>\n                </td>\n                <td align=\"center\" style=\"padding: 5px;\">\n                    <a href=\"https://www.instagram.com/latiseducation/\" title=\"Instagram\" target=\"_blank\">\n                        <img src=\"https://login.latiseducation.com/assets2/img/email/image-4.png\" alt=\"Instagram\" title=\"Instagram\" width=\"32\" style=\"border: none; display: inline-block;\" />\n                    </a>\n                </td>\n                <td align=\"center\" style=\"padding: 5px;\">\n                </td>\n            </tr>\n        </tbody>\n    </table>"
+      }
+    }
+  },
+  "block-1765269030836": {
+    "type": "ColumnsContainer",
+    "data": {
+      "style": {
+        "padding": {
+          "top": 16,
+          "bottom": 16,
+          "right": 24,
+          "left": 24
+        }
+      },
+      "props": {
+        "columnsCount": 2,
+        "columnsGap": 16,
+        "columns": [
+          {
+            "childrenIds": []
+          },
+          {
+            "childrenIds": []
+          },
+          {
+            "childrenIds": []
+          }
+        ]
+      }
+    }
+  },
+  "block-1765269100617": {
+    "type": "Html",
+    "data": {
+      "style": {
+        "color": null,
+        "fontSize": 12,
+        "textAlign": "center",
+        "padding": {
+          "top": 4,
+          "bottom": 16,
+          "right": 24,
+          "left": 24
+        }
+      },
+      "props": {
+        "contents": "<a style=\"color: black;\" href=\"https://latiseducation.com\">Go To Latiseducation</a> | <a style=\"color: black;\" href=\"$url_unsubscribe$\">Unsubscribe</a>"
       }
     }
   }
