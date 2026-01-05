@@ -20,12 +20,12 @@ const RESPOND_TO_MESSAGE: TEditorConfiguration = {
         "block-1731577686874",
         "block-1731638974265",
         "block-1731640243295",
-        "block-1731578009073",
+        "block-1767594304688",
         "block-1731578104869",
         "block-1731578194310",
         "block-1731578214314",
-        "block-1765269100617",
-        "block-1731638795916"
+        "block-1731638795916",
+        "block-1767594903802"
       ]
     }
   },
@@ -57,8 +57,8 @@ const RESPOND_TO_MESSAGE: TEditorConfiguration = {
         "padding": {
           "top": 0,
           "bottom": 16,
-          "right": 24,
-          "left": 24
+          "right": 36,
+          "left": 36
         }
       },
       "props": {
@@ -74,8 +74,8 @@ const RESPOND_TO_MESSAGE: TEditorConfiguration = {
         "padding": {
           "top": 0,
           "bottom": 16,
-          "right": 24,
-          "left": 24
+          "right": 36,
+          "left": 36
         }
       },
       "props": {
@@ -91,8 +91,8 @@ const RESPOND_TO_MESSAGE: TEditorConfiguration = {
         "padding": {
           "top": 0,
           "bottom": 16,
-          "right": 24,
-          "left": 24
+          "right": 36,
+          "left": 36
         }
       },
       "props": {
@@ -127,27 +127,6 @@ const RESPOND_TO_MESSAGE: TEditorConfiguration = {
   "block-1731577686874": {
     "type": "Spacer",
     "data": {}
-  },
-  "block-1731578009073": {
-    "type": "Text",
-    "data": {
-      "style": {
-        "backgroundColor": null,
-        "fontSize": 16,
-        "fontWeight": "bold",
-        "textAlign": "center",
-        "padding": {
-          "top": 4,
-          "bottom": 4,
-          "right": 24,
-          "left": 24
-        }
-      },
-      "props": {
-        "markdown": false,
-        "text": "Ocean Terrace E1 Jalan Tole Iskandar, Tirtajaya, Kec. Sukmajaya, Kota Depok, Jawa Barat, 16412"
-      }
-    }
   },
   "block-1731578104869": {
     "type": "Html",
@@ -255,7 +234,7 @@ const RESPOND_TO_MESSAGE: TEditorConfiguration = {
         }
       },
       "props": {
-        "contents": "<table align=\"center\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"table-layout: fixed; border-collapse: collapse;\">\n        <tbody>\n            <tr>\n                <td align=\"center\" style=\"padding: 5px;\">\n                </td>\n                <td align=\"center\" style=\"padding: 5px;\">\n                    <a href=\"https://www.facebook.com/Latis-Privat-1429223854059865/\" title=\"Facebook\" target=\"_blank\">\n                        <img src=\"https://login.latiseducation.com/assets2/img/email/image-1.png\" alt=\"Facebook\" title=\"Facebook\" width=\"32\" style=\"border: none; display: inline-block;\" />\n                    </a>\n                </td>\n                <td align=\"center\" style=\"padding: 5px;\">\n                    <a href=\"https://twitter.com/latis_privat?s=09\" title=\"Twitter\" target=\"_blank\">\n                        <img src=\"https://login.latiseducation.com/assets2/img/email/image-2.png\" alt=\"Twitter\" title=\"Twitter\" width=\"32\" style=\"border: none; display: inline-block;\" />\n                    </a>\n                </td>\n                <td align=\"center\" style=\"padding: 5px;\">\n                    <a href=\"https://www.youtube.com/channel/UCcXqPPijOmscmCEtCESW5Gg\" title=\"YouTube\" target=\"_blank\">\n                        <img src=\"https://login.latiseducation.com/assets2/img/email/image-3.png\" alt=\"YouTube\" title=\"YouTube\" width=\"32\" style=\"border: none; display: inline-block;\" />\n                    </a>\n                </td>\n                <td align=\"center\" style=\"padding: 5px;\">\n                    <a href=\"https://www.instagram.com/latiseducation/\" title=\"Instagram\" target=\"_blank\">\n                        <img src=\"https://login.latiseducation.com/assets2/img/email/image-4.png\" alt=\"Instagram\" title=\"Instagram\" width=\"32\" style=\"border: none; display: inline-block;\" />\n                    </a>\n                </td>\n                <td align=\"center\" style=\"padding: 5px;\">\n                </td>\n            </tr>\n        </tbody>\n    </table>"
+        "contents": "<table align=\"center\" width=\"100%\" cellpadding=\"0\" cellspacing=\"0\" border=\"0\" style=\"table-layout: fixed; border-collapse: collapse; max-width: 300px; margin: 0 auto;\">\n    <tbody>\n        <tr>\n            <td align=\"center\" style=\"padding: 5px;\">\n                <a href=\"https://twitter.com/latis_privat?s=09\" title=\"Twitter\" target=\"_blank\">\n                    <img src=\"https://latiseducation.com/file/uploads/media-0c4a1a90-4138-447d-9161-45bf4152e606.png\" alt=\"Twitter\" title=\"Twitter\" width=\"32\" height=\"32\" style=\"border: 2px solid #000000; border-radius: 50%; display: inline-block; padding: 8px; box-sizing: content-box;\" />\n                </a>\n            </td>\n            <td align=\"center\" style=\"padding: 5px;\">\n                <a href=\"https://www.facebook.com/Latis-Privat-1429223854059865/\" title=\"Facebook\" target=\"_blank\">\n                    <img src=\"https://latiseducation.com/file/uploads/media-5ec24049-e324-48e0-85b8-c190d67ee59e.png\" alt=\"Facebook\" title=\"Facebook\" width=\"32\" height=\"32\" style=\"border: 2px solid #000000; border-radius: 50%; display: inline-block; padding: 8px; box-sizing: content-box;\" />\n                </a>\n            </td>\n            <td align=\"center\" style=\"padding: 5px;\">\n                <a href=\"https://www.instagram.com/latiseducation/\" title=\"Instagram\" target=\"_blank\">\n                    <img src=\"https://latiseducation.com/file/uploads/media-ee6b2cd6-7af2-492e-9cfc-83a9a38fc620.png\" alt=\"Instagram\" title=\"Instagram\" width=\"32\" height=\"32\" style=\"border: 2px solid #000000; border-radius: 50%; display: inline-block; padding: 8px; box-sizing: content-box;\" />\n                </a>\n            </td>\n            <td align=\"center\" style=\"padding: 5px;\">\n                <a href=\"https://www.linkedin.com/company/latiseducation/\" title=\"LinkedIn\" target=\"_blank\">\n                    <img src=\"https://latiseducation.com/file/uploads/media-10f59484-8e5e-4ed6-b701-17558037148a.png\" alt=\"LinkedIn\" title=\"LinkedIn\" width=\"32\" height=\"32\" style=\"border: 2px solid #000000; border-radius: 50%; display: inline-block; padding: 8px; box-sizing: content-box;\" />\n                </a>\n            </td>\n            <td align=\"center\" style=\"padding: 5px;\">\n                <a href=\"https://www.youtube.com/channel/UCcXqPPijOmscmCEtCESW5Gg\" title=\"YouTube\" target=\"_blank\">\n                    <img src=\"https://latiseducation.com/file/uploads/media-269879a1-42fe-425b-8a77-2ec8f8149bc0.png\" alt=\"YouTube\" title=\"YouTube\" width=\"32\" height=\"32\" style=\"border: 2px solid #000000; border-radius: 50%; display: inline-block; padding: 8px; box-sizing: content-box;\" />\n                </a>\n            </td>\n        </tr>\n    </tbody>\n</table>"
       }
     }
   },
@@ -287,25 +266,43 @@ const RESPOND_TO_MESSAGE: TEditorConfiguration = {
       }
     }
   },
-  "block-1765269100617": {
+  "block-1767594304688": {
     "type": "Html",
     "data": {
       "style": {
-        "color": null,
-        "fontSize": 12,
-        "textAlign": "center",
+        "fontSize": 16,
+        "textAlign": null,
         "padding": {
-          "top": 4,
+          "top": 12,
           "bottom": 16,
-          "right": 24,
-          "left": 24
+          "right": 36,
+          "left": 36
         }
       },
       "props": {
-        "contents": "<a style=\"color: black;\" href=\"https://latiseducation.com\">Go To Latiseducation</a> | <a style=\"color: black;\" href=\"$url_unsubscribe$\">Unsubscribe</a>"
+        "contents": "<p style=\"text-align: center;\">Tidak ingin menerima email dari Latis Education? Klik disini untuk <a style=\"color: blue;\" href=\"$url_unsubscribe$\">berhenti berlangganan.</a></p>\n<p style=\"text-align: center;\">Informasi lebih lengkap <a style=\"color: blue;\" href=\"https://latiseducation.com\">Klik disini</a></p>"
+      }
+    }
+  },
+  "block-1767594903802": {
+    "type": "Text",
+    "data": {
+      "style": {
+        "fontSize": 16,
+        "fontWeight": "bold",
+        "textAlign": "center",
+        "padding": {
+          "top": 16,
+          "bottom": 24,
+          "right": 36,
+          "left": 36
+        }
+      },
+      "props": {
+        "text": "Ocean Terrace E1 Jalan Tole Iskandar, Tirtajaya, Kec. Sukmajaya, Kota Depok, Jawa Barat, 16412"
       }
     }
   }
-};
+}
 
 export default RESPOND_TO_MESSAGE;
